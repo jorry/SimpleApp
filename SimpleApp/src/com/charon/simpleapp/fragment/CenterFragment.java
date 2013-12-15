@@ -15,17 +15,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.charon.scrollingtabs.view.ScrollingTabs;
+import com.charon.scrollingtabs.view.ScrollingTabs.PageSelectedListener;
+import com.charon.scrollingtabs.view.ScrollingTabs.TabAdapter;
 import com.charon.simpleapp.MainActivity;
 import com.charon.simpleapp.R;
-import com.charon.simpleapp.inter.TabAdapter;
-import com.charon.simpleapp.view.ScrollingTabsView;
-import com.charon.simpleapp.view.ScrollingTabsView.PageSelectedListener;
 
 public class CenterFragment extends Fragment implements OnClickListener {
 	private ViewPager mViewPager;
 	private ImageView mLeftToogle;
 	private ImageView mRightToogle;
-	private ScrollingTabsView mScrollingTabsView;
+	private ScrollingTabs mScrollingTabsView;
 
 	private OnViewPagerChangeListener listener;
 
@@ -49,7 +49,7 @@ public class CenterFragment extends Fragment implements OnClickListener {
 		mViewPager = (ViewPager) view.findViewById(R.id.vp);
 		mLeftToogle = (ImageView) view.findViewById(R.id.iv_center_left);
 		mRightToogle = (ImageView) view.findViewById(R.id.iv_center_right);
-		mScrollingTabsView = (ScrollingTabsView) view.findViewById(R.id.stv);
+		mScrollingTabsView = (ScrollingTabs) view.findViewById(R.id.stv);
 	}
 
 	private void initView(View view) {

@@ -30,7 +30,7 @@
             tools:ignore="ContentDescription" />
     </RelativeLayout>
 
-    <com.charon.simpleapp.view.ScrollingTabsView
+    <com.charon.scrollingtabs.view.ScrollingTabs
         android:id="@+id/stv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

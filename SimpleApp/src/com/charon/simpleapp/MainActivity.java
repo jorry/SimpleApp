@@ -11,7 +11,7 @@ import com.charon.simpleapp.fragment.CenterFragment;
 import com.charon.simpleapp.fragment.CenterFragment.OnViewPagerChangeListener;
 import com.charon.simpleapp.fragment.LeftFragment;
 import com.charon.simpleapp.fragment.RightFragment;
-import com.charon.simpleapp.view.SlidingMenu;
+import com.charon.slidingmenu.view.SlidingMenu;
 
 /**
  * 首页，包含了一个SlidingMenu

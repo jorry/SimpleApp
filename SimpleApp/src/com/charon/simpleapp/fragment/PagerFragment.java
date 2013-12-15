@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.charon.pulltorefreshlistview.PullToRefreshListView;
+import com.charon.pulltorefreshlistview.PullToRefreshListView.OnRefreshListener;
 import com.charon.simpleapp.R;
-import com.charon.simpleapp.view.PullToRefreshListView;
-import com.charon.simpleapp.view.PullToRefreshListView.OnRefreshListener;
 
 /**
  * ViewPager中每个页面对应的Fragment
